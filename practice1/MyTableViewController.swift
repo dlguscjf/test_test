@@ -92,12 +92,10 @@ class MyTableViewController: UITableViewController {
                 destinationController.address = foodStoreAddress[indexpath.row]
                 
                 
-                
             }
+            
         }
-        
         
     }
     
-
 }
