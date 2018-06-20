@@ -15,6 +15,7 @@
 		7422432320DA28120003CF83 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7422432220DA28120003CF83 /* MyTableViewCell.swift */; };
 		7422432520DA2C500003CF83 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7422432420DA2C500003CF83 /* MapViewController.swift */; };
 		7422432820DA2D210003CF83 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7422432720DA2D210003CF83 /* MapKit.framework */; };
+		7422432A20DA37450003CF83 /* TotalMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7422432920DA37450003CF83 /* TotalMapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		7422432220DA28120003CF83 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		7422432420DA2C500003CF83 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		7422432720DA2D210003CF83 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7422432920DA37450003CF83 /* TotalMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				7422432020DA28010003CF83 /* MyTableViewController.swift */,
 				7422432220DA28120003CF83 /* MyTableViewCell.swift */,
 				7422432420DA2C500003CF83 /* MapViewController.swift */,
+				7422432920DA37450003CF83 /* TotalMapViewController.swift */,
 			);
 			path = practice1;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				7422432120DA28010003CF83 /* MyTableViewController.swift in Sources */,
 				7422432320DA28120003CF83 /* MyTableViewCell.swift in Sources */,
 				7422432520DA2C500003CF83 /* MapViewController.swift in Sources */,
+				7422432A20DA37450003CF83 /* TotalMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -94,6 +94,10 @@ class MyTableViewController: UITableViewController {
                 
             }
             
+        } else if segue.identifier == "totalmap"{
+            let destinationController = segue.destination as! TotalMapViewController
+            destinationController.name = foodStoreName
+            destinationController.address = foodStoreAddress
         }
         
     }
