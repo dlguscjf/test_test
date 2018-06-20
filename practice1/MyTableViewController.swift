@@ -79,14 +79,25 @@ class MyTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "mapview"{
+            if let indexpath = tableView.indexPathForSelectedRow{
+                let destinationController = segue.destination as! MapViewController
+                
+                destinationController.name = foodStoreName[indexpath.row]
+                destinationController.address = foodStoreAddress[indexpath.row]
+                
+                
+                
+            }
+        }
+        
+        
     }
-    */
+    
 
 }
